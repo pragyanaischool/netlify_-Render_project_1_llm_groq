@@ -8,7 +8,7 @@ export default function App() {
   const [question, setQuestion] = useState("");
   const [chatHistory, setChatHistory] = useState([]);
   const [loading, setLoading] = useState(false);
-  const API_BASE_URL = "https://your-backend-url.onrender.com"; // Replace with backend URL
+  const API_BASE_URL = "https://fastapi-groq-backend.onrender.com"; // Replace with backend URL
   const messagesEndRef = useRef(null);
 
   useEffect(() => {
